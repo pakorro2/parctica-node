@@ -1,4 +1,4 @@
-Inicializar entorno de node (npm init)
+#Inicializar entorno de node (npm init)
 
 Instalar Herramientas de producción
 npm i express
@@ -6,7 +6,7 @@ npm i -D nodemon
 crear el archivo GIT Ignore
 inicializar git
 
-configurar el package.json cons los script de inicializacion de la app y nodemon para escuchasr todos los cambios de nustra app sin tener que estar inicializando por cada cambio.
+Configurar el package.json cons los script de inicializacion de la app y nodemon para escuchasr todos los cambios de nustra app sin tener que estar inicializando por cada cambio.
 
 craer servidor usando express en app.js
 

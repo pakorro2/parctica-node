@@ -3,7 +3,7 @@ const express = require('express')
 const port = 8500
 const app = express()
 
-app.get('/', (req, res) => {
+app.get('/profile', (req, res) => {
   res.json({
     name: 'pako',
     mail: 'pakorro2@gmail.com',
@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   })
 })
 
-app.post('/', (req, res) => {
+app.post('/job', (req, res) => {
   res.json([
     'Mercado libre',
     'Buk',
@@ -20,7 +20,7 @@ app.post('/', (req, res) => {
   ])
 })
 
-app.patch('/', (req, res) => {
+app.patch('/hobby', (req, res) => {
   res.json([
     'Andar en motosicleta',
     'Fotografia',
